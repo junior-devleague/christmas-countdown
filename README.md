@@ -164,5 +164,7 @@ window.onload = function() {
 * Create another if statement that checks if minutes is less than 10. If so, set the clock's ```innerHTML```  to a string that takes in hours and minutes to form the time (such that 4:09 does not appear as 4:9). Else, set the clock's ```innerHTML```  to a string that takes in hours and minutes to form the time.
 6. Create an if statement that checks if the current month is December.
 * If so, create another if statement within it that checks if the current date is less than 25.
-* If it is 25, create a variable called countdown and set that equal to 25 - the current date.
-* 
+* If so, create a variable called countdown and set that equal to 25 - the current date.
+* Create an "else if" statement that checks if the current date is equal to 25. If so, change the innerHTML of the update element to "Merry Christmas!".
+* Create another "else if" statement that checks if the date is greater than 25. If so, update the innerHTML to "A year until Next Christmas!"
+* Create an "else" statement. In this else statement, create a variable called countdown that subtracts ```date.getMonth()``` from 11. Then, update the innerHTML to display how many months are left until Christmas!
