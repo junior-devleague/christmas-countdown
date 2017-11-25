@@ -168,3 +168,6 @@ window.onload = function() {
 * Create an "else if" statement that checks if the current date is equal to 25. If so, change the innerHTML of the update element to "Merry Christmas!".
 * Create another "else if" statement that checks if the date is greater than 25. If so, update the innerHTML to "A year until Next Christmas!"
 * Create an "else" statement. In this else statement, create a variable called countdown that subtracts ```date.getMonth()``` from 11. Then, update the innerHTML to display how many months are left until Christmas!
+
+### Stretch Goals
+1. Create a JavaScript timer on your page, or on another page within your web application with start and stop buttons.  
