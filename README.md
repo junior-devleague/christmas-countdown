@@ -2,6 +2,8 @@
 
 Christmas is almost here! But... when? Create a countdown to Christmas with HTML, CSS, and JS!
 
+![Countdown Example](https://github.com/junior-devleague/christmas-countdown/blob/master/christmas-countdown.gif)
+
 ## Objective
 
 Use the **JavaScript Date Object**, **CSS Keyframe Animations** and the **Window setInterval** method to display a clock, winter animation, and countdown to Christmas on the page.
