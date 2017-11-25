@@ -120,4 +120,30 @@ To complete Part II, fulfill the following requirements:
 12. Target the ```layer2``` id.
 * Set its ```height``` property to 150px.
 13. Target the ```layer3``` id.
-* Set its ```height``` property to 130px. 
+* Set its ```height``` property to 130px.
+
+**Keyframe Animations**
+14. Create a ```CSS Keyframe Animation``` called translate. *Hint: Use https://www.w3schools.com/css/css3_animations.asp*
+* This animation should begin with the ```opacity``` property set to 0.
+* At 10%, set the ```opacity``` property to 1.
+* At 80%, set the ```opacity``` property to 1.
+* At 90%, set the ```opacity``` property to 0.
+* At the very end, set the ```transform``` property to ```translateX(calc(100vw))```. This means that it will calculate the length of the entire view width (vw) and translate the elements across the entire page.
+15. Let's assign this animation to our moving elements! Go to your ```snow``` class.
+* Add an ```animation-name``` property and set that to the name of your animation.
+* Add an ```animation-iteration-count``` property and set that to ```infinite```. This means that the animation will continuously repeat.
+* Add an ```animation-timing-function``` property and set that to ```linear```. This means that the animation will play with the same speed throughout. Do these same steps to your ```tree``` class.
+16. Target the ```mound1``` id.
+* Set the ```animation-duration``` property to ```10s``` (10 seconds).
+17. Target the ```mound2``` id.
+* Set the ```animation-duration``` property to ```9s```.
+18. Target the ```mound3``` id.
+* Set the ```animation-duration``` property to ```8s```.
+19. Target the ```mound4``` id.
+* Set the ```animation-duration``` property to ```7s```.
+20. Target the ```mound5``` id.
+* Set the ```animation-duration``` property to ```6s```.
+
+Check to see that your snow mounds are moving! Now that you've made them move, let's move the trees. Go to where you've targeted the ```tree1```, ```tree2```, and ```tree3``` ids. Set the ```animation-duration``` property of these trees to ```10s```, ```8s```, and ```6s``` respectively.
+
+### Part IV JS
