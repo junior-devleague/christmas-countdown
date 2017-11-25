@@ -147,3 +147,22 @@ To complete Part II, fulfill the following requirements:
 Check to see that your snow mounds are moving! Now that you've made them move, let's move the trees. Go to where you've targeted the ```tree1```, ```tree2```, and ```tree3``` ids. Set the ```animation-duration``` property of these trees to ```10s```, ```8s```, and ```6s``` respectively.
 
 ### Part IV JS
+To complete Part II, fulfill the following requirements:
+1. Begin your code with a function that will start onload of the window as follows:
+```JavaScript
+window.onload = function() {
+  //Put all of your code in here!
+}
+```
+2. Store your ```div``` with the ```id``` of ```clock``` and ```h1``` with the ```id``` of ```update``` in variables. *Hint: Use document.getElementById()!*
+3. Create a ```setInterval``` method that takes in a function called ```updateTime``` and will run that function every second.
+5. Create a function called ```updateTime``` .
+* In this function, create a variable called date that will store a new ```Date``` Object.
+* Create a variable called hours that will store the hours using your date variable.
+* Create a variable called minutes that will store the minutes using your date variable.
+* Create an if statement that checks if hours is greater than 12. If so, set the variable hours equal to ```hours - 12```. This is so you don't view time like 22:23.
+* Create another if statement that checks if minutes is less than 10. If so, set the clock's ```innerHTML```  to a string that takes in hours and minutes to form the time (such that 4:09 does not appear as 4:9). Else, set the clock's ```innerHTML```  to a string that takes in hours and minutes to form the time.
+6. Create an if statement that checks if the current month is December.
+* If so, create another if statement within it that checks if the current date is less than 25.
+* If it is 25, create a variable called countdown and set that equal to 25 - the current date.
+* 
